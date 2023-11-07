@@ -8,5 +8,5 @@ from rest_framework.views import APIView
 
 class HelloWorld(APIView):
     def get(self, request):
-        data = {'message': 'Hello, World!'}
+        data = {'message': 'Hello, World! Universe'}
         return Response(data)
